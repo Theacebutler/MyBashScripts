@@ -31,7 +31,6 @@ def main():
         with open ('index.html', 'w') as index:
             index.write('{% extends layout.html %} \n {% block body %} \n\n\n {% endblock %}')
 
-        # chdir(getcwd())
         # create a styels.css file in the static folder
         allpath = [str(getcwd()), '../', 'static']
         chdir(path.join(*allpath))
