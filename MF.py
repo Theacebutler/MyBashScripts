@@ -1,5 +1,5 @@
 #! /usr/local/bin/ python3
-# newflask.py
+# MF.py
 from os import makedirs, chdir, getcwd, path
 from sys import argv
 
