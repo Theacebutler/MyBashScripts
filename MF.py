@@ -6,6 +6,7 @@ from sys import argv
 def main():
     if len(argv) < 2:
         return print('\nUsage:\n  MF.py [Name of new folder]')
+    
     try:
         # make a dir with the name from the user 
         makedirs(argv[1], exist_ok=True)
